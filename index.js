@@ -5,13 +5,29 @@ inquirer
   .prompt([
     {
       type: 'input',
-      message: 'What is your user name?',
-      name: 'username',
+      message: 'What is your project title?',
+      name: 'title',
     },
     {
-      type: 'password',
-      message: 'What is your password?',
-      name: 'password',
+      type: 'input',
+      message: 'What is the description of the project?',
+      name: 'description',
+    },
+    {
+      type: 'input',
+      message: 'Are there installation instructions?',
+      name: 'installation',
+    },
+    {
+      type: 'input',
+      message: 'What is this project used for?',
+      name: 'usage',
+    },
+    {
+      type: 'list',
+      message: 'Choose the license type:',
+      choices: ['MIT', 'GNU GPLVv3'],
+      name: 'liscence',
     },
     {
       type: 'password',
@@ -20,7 +36,7 @@ inquirer
     },
   ])
   .then(answers => {
-      fs.writeFile(`${answers.user}`, 
+      fs.writeFile(`${answers.title}`, 
       JSON.stringify(answers, null, 2),
       err => err ? console.error(err) : console.log('Success'));
   }

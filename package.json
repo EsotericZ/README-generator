@@ -1,0 +1,23 @@
+{
+  "name": "hw-week09",
+  "version": "1.0.0",
+  "description": "Week 09 Homework - README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsotericZ/hw-week09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsotericZ/hw-week09/issues"
+  },
+  "homepage": "https://github.com/EsotericZ/hw-week09#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}

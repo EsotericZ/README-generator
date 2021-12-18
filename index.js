@@ -41,7 +41,7 @@ inquirer
     },
   ])
   .then(answers => {
-      fs.writeFile("README", 
+      fs.writeFile("README.md", 
       `# ${answers.title}
 
 ## Description 

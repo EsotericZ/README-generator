@@ -68,7 +68,9 @@ ${answers.license}
       
 ## Tests
       
-## Questions  
+## Questions
+GitHub Profile - [${answers.username}](https://www.github.com/${answers.username})  
+Additional questions? [Contact Me](mailto:${answers.email})
       `,
       err => err ? console.error(err) : console.log('Success'));
   }

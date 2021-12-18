@@ -27,17 +27,49 @@ inquirer
       type: 'list',
       message: 'Choose the license type:',
       choices: ['MIT', 'GNU GPLVv3'],
-      name: 'liscence',
+      name: 'license',
     },
     {
-      type: 'password',
-      message: 'Re-enter password to confirm:',
-      name: 'confirm',
+      type: 'input',
+      message: 'What is your GitHub username?',
+      name: 'username',
+    },
+    {
+      type: 'input',
+      message: 'What is your email address?',
+      name: 'email',
     },
   ])
   .then(answers => {
-      fs.writeFile(`${answers.title}`, 
-      JSON.stringify(answers, null, 2),
+      fs.writeFile("README", 
+      `# ${answers.title}
+
+## Description 
+${answers.description}
+
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Installation
+${answers.installation}
+      
+## Usage
+${answers.usage}
+      
+## License
+${answers.license}
+      
+## Contributing 
+      
+## Tests
+      
+## Questions  
+      `,
       err => err ? console.error(err) : console.log('Success'));
   }
   );

@@ -1,7 +1,8 @@
-# Test
+# ld
+      [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description 
-This is a test
+ld
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -12,19 +13,18 @@ This is a test
 - [Questions](#Questions)
 
 ## Installation
-Install some stuff
+ld
       
 ## Usage
-Usage? We don't need no usage
+ld
       
 ## License
-MIT
+Apache License 2.0
       
 ## Contributing 
       
 ## Tests
       
 ## Questions
-GitHub Profile - [EsotericZ](https://www.github.com/EsotericZ)  
-Additional questions? [Contact Me](mailto:cjsand03@gmail.com)
-      
+GitHub Profile: [ld](https://www.github.com/ld)  
+Additional questions? [Contact Me](mailto:ld)

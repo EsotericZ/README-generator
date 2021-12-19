@@ -26,7 +26,17 @@ inquirer
     {
       type: 'list',
       message: 'Choose the license type:',
-      choices: ['MIT', 'GNU GPLVv3'],
+      choices: [
+        'Apache License 2.0',
+        'Boost Software License 1.0', 
+        'GNU AGPLv3', 
+        'GNU GPLVv3',
+        'GNU LGPLv3',  
+        'ISC', 
+        'Mozilla Public License 2.0',
+        'MIT License',
+        'The Unlicense'
+      ],
       name: 'license',
     },
     {
@@ -36,13 +46,14 @@ inquirer
     },
     {
       type: 'input',
-      message: 'What is your email address?',
+      message: 'Email address for the contact me?',
       name: 'email',
     },
   ])
   .then(answers => {
       fs.writeFile("README.md", 
       `# ${answers.title}
+      [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description 
 ${answers.description}
@@ -69,9 +80,8 @@ ${answers.license}
 ## Tests
       
 ## Questions
-GitHub Profile - [${answers.username}](https://www.github.com/${answers.username})  
-Additional questions? [Contact Me](mailto:${answers.email})
-      `,
+GitHub Profile: [${answers.username}](https://www.github.com/${answers.username})  
+Additional questions? [Contact Me](mailto:${answers.email})`,
       err => err ? console.error(err) : console.log('Success'));
   }
   );

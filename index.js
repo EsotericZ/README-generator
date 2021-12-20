@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-let ans = [];
+// let ans = [];
 const license = [
   ['Apache License 2.0','[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'],
   ['Boost Software License 1.0','[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'], 
@@ -63,8 +63,8 @@ inquirer
     },
   ])
   .then(answers => {
-    ans = answers;
-    console.log(ans);
+    // ans = answers;
+    // console.log(ans);
     getLicense(answers);
       // fs.writeFile("README.md", 
 //       `# ${answers.title}
@@ -112,5 +112,36 @@ function getLicense(answers) {
 }
 
 function writeReadme(answers) {
-  console.log(answers, 33)
+  fs.writeFile("README.md", 
+      `# ${answers.title}
+${answers.badge}
+
+## Description 
+${answers.description}
+
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+
+## Installation
+${answers.installation}
+      
+## Usage
+${answers.usage}
+      
+## License
+${answers.license}
+      
+## Contributing 
+      
+## Tests
+      
+## Questions
+GitHub Profile: [${answers.username}](https://www.github.com/${answers.username})  
+Additional questions? [Contact Me](mailto:${answers.email})`,
+      err => err ? console.error(err) : console.log('Success'));
 }

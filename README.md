@@ -1,8 +1,8 @@
-# gdgfs
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 1
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 ## Description 
-gdsgfsgsf
+2
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,18 +13,18 @@ gdsgfsgsf
 - [Questions](#Questions)
 
 ## Installation
-gddsgdsg
+3
       
 ## Usage
-gdsgdsg
+4
       
 ## License
-Apache License 2.0
+GNU LGPLv3
       
 ## Contributing 
       
 ## Tests
       
 ## Questions
-GitHub Profile: [gdsgdsg](https://www.github.com/gdsgdsg)  
-Additional questions? [Contact Me](mailto:gdsgdsg)
+GitHub Profile: [6](https://www.github.com/6)  
+Additional questions? [Contact Me](mailto:7)

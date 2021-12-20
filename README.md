@@ -1,8 +1,8 @@
-# 1
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+# Title
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description 
-2
+Description
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,18 +13,18 @@
 - [Questions](#Questions)
 
 ## Installation
-3
+Installation
       
 ## Usage
-4
+Usage
       
 ## License
-GNU LGPLv3
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) Boost Software License 1.0
       
 ## Contributing 
       
 ## Tests
       
 ## Questions
-GitHub Profile: [6](https://www.github.com/6)  
-Additional questions? [Contact Me](mailto:7)
+GitHub Profile: [EsotericZ](https://www.github.com/EsotericZ)  
+Additional questions? [Contact Me](mailto:cjsand03@gmail.com)

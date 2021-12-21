@@ -17,6 +17,12 @@ You must install inquirer to use this app
       
 ## Usage
 Automatically generating a professional README.md file for any application
+Video Example
+[![Watch](https://i.imgur.com/vKb2F1B.png)](https://watch.screencastify.com/v/IREgH6SJfBRCUiqJCHnv)
+
+Screenshots
+![Alt text](/assets/images/final.png?raw=true "Terminal View")
+![Alt text](/assets/images/readme.png?raw=true "Final View")
       
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  

@@ -1,8 +1,8 @@
-# README Generator
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+# Project Title
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description 
-This is a file that will create a professional README.md file for any of your projects
+Provide a short detailed description explaining your project. Guided questions will be motivation, what problems are solved, what did you learn, why did you build the project.
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,21 +13,21 @@ This is a file that will create a professional README.md file for any of your pr
 - [Questions](#Questions)
 
 ## Installation
-You need to install inquirer to use this application
+Place all installation instructions. A step-by-step guide on how to get the enviroment running is recommended.
       
 ## Usage
-Building README files automatically
+Provide instructions and examples for use. Include screenshots as needed.
       
 ## License
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)  
-GNU AGPLv3 - Click [here](https://www.gnu.org/licenses/agpl-3.0) for more information.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+Apache License 2.0 - Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
       
 ## Contributing 
-No contribution needed
+Guidelines for how other developers can contribure to your project.
 
 ## Tests
-undefined
+Detailed information on how to test your project with examples on how to run the tests.
 
 ## Questions
-GitHub Profile: [EsotericZ](https://www.github.com/EsotericZ)  
-Additional questions? [Contact Me](mailto:cjsand03@gmail.com)
+GitHub Profile: [Your GitHub Username](https://www.github.com/Your GitHub Username)  
+Additional questions? [Contact Me](mailto:Your contact email)

@@ -86,6 +86,7 @@ function getLicense(answers) {
   }
   answers.badge = badge;
   answers.blink = blink;
+  console.log(answers)
   writeReadme(answers); 
 }
 
@@ -119,7 +120,7 @@ ${answers.license} - Click [here](${answers.blink}) for more information.
 ${answers.contribute}
 
 ## Tests
-${answers.tests}
+${answers.test}
 
 ## Questions
 GitHub Profile: [${answers.username}](https://www.github.com/${answers.username})  

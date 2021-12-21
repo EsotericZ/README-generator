@@ -8,7 +8,7 @@ const license = [
   ['GNU GPLVv3','[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'],
   ['GNU LGPLv3','[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)'],  
   ['ISC','[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'],
-  ['Mozilla Public License 2.0','[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0'],
+  ['Mozilla Public License 2.0','[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'],
   ['MIT License','[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'],
   ['The Unlicense','[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)']
 ];
@@ -71,9 +71,11 @@ function getLicense(answers) {
   for (const n in license) {
     if (answers.license === license[n][0]) {
       badge = license[n][1];
+      blink = badge.split('(')[2].slice(0,-1);
     }
   }
   answers.badge = badge;
+  answers.blink = blink;
   writeReadme(answers); 
 }
 
@@ -100,7 +102,8 @@ ${answers.installation}
 ${answers.usage}
       
 ## License
-${answers.badge} ${answers.license}
+${answers.badge} 
+${answers.license} - Click [here](${answers.blink}) for more information.
       
 ## Contributing 
       

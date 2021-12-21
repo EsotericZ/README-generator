@@ -1,5 +1,5 @@
-# Title
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# Title 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description 
 Description
@@ -19,7 +19,8 @@ Installation
 Usage
       
 ## License
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt) Boost Software License 1.0
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) 
+ISC - Click [here](https://opensource.org/licenses/ISC) for more information.
       
 ## Contributing 
       

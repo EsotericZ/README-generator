@@ -16,11 +16,12 @@ A professional README.md file generator for your projects that includes what the
 You must install inquirer to use this app
       
 ## Usage
-Automatically generating a professional README.md file for any application
-Video Example
-[![Watch](https://i.imgur.com/vKb2F1B.png)](https://watch.screencastify.com/v/IREgH6SJfBRCUiqJCHnv)
+Automatically generating a professional README.md file for any application  
 
-Screenshots
+Video Example  
+[![Watch](https://img.freepik.com/free-vector/video-player-interface-play-button-play-video_177006-355.jpg?size=626&ext=jpg)](https://watch.screencastify.com/v/IREgH6SJfBRCUiqJCHnv)
+
+Screenshots  
 ![Alt text](/assets/images/final.png?raw=true "Terminal View")
 ![Alt text](/assets/images/readme.png?raw=true "Final View")
       

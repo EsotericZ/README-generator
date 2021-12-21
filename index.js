@@ -57,6 +57,11 @@ inquirer
       name: 'test',
     },
     {
+    type: 'input',
+    message: 'Are there any contributon guidelines for your project?',
+    name: 'contribute',
+    },
+    {
       type: 'input',
       message: 'What is your GitHub username?',
       name: 'username',
@@ -111,7 +116,8 @@ ${answers.badge}
 ${answers.license} - Click [here](${answers.blink}) for more information.
       
 ## Contributing 
-      
+${answers.contribute}
+
 ## Tests
 ${answers.tests}
 

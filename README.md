@@ -29,5 +29,5 @@ Guidelines for how other developers can contribure to your project.
 Detailed information on how to test your project with examples on how to run the tests.
 
 ## Questions
-GitHub Profile: [Your GitHub Username](https://www.github.com/Your GitHub Username)  
-Additional questions? [Contact Me](mailto:Your contact email)
+GitHub Profile: [EsotericZ](https://www.github.com/EsotericZ)  
+Additional questions? [Contact Me](mailto:cjsand03@gmail.com)

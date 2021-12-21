@@ -53,6 +53,11 @@ inquirer
     },
     {
       type: 'input',
+      message: 'How do you test your project?',
+      name: 'test',
+    },
+    {
+      type: 'input',
       message: 'What is your GitHub username?',
       name: 'username',
     },
@@ -102,13 +107,14 @@ ${answers.installation}
 ${answers.usage}
       
 ## License
-${answers.badge} 
+${answers.badge}  
 ${answers.license} - Click [here](${answers.blink}) for more information.
       
 ## Contributing 
       
 ## Tests
-      
+${answers.tests}
+
 ## Questions
 GitHub Profile: [${answers.username}](https://www.github.com/${answers.username})  
 Additional questions? [Contact Me](mailto:${answers.email})`,

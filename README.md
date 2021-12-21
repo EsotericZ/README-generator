@@ -1,8 +1,8 @@
-# Project Title
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Professional README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-Provide a short detailed description explaining your project. Guided questions will be motivation, what problems are solved, what did you learn, why did you build the project.
+A professional README.md file generator for your projects that includes what the app does, how to use and install it, how to report issues and how to make contributions. This is done from a command-line application using inquirer and automatically generates the README file
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,20 +13,20 @@ Provide a short detailed description explaining your project. Guided questions w
 - [Questions](#Questions)
 
 ## Installation
-Place all installation instructions. A step-by-step guide on how to get the enviroment running is recommended.
+You must install inquirer to use this app
       
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
+Automatically generating a professional README.md file for any application
       
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
-Apache License 2.0 - Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+MIT License - Click [here](https://opensource.org/licenses/MIT) for more information.
       
 ## Contributing 
-Guidelines for how other developers can contribure to your project.
+Not applicable
 
 ## Tests
-Detailed information on how to test your project with examples on how to run the tests.
+Not applicable 
 
 ## Questions
 GitHub Profile: [EsotericZ](https://www.github.com/EsotericZ)  

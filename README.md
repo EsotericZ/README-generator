@@ -1,8 +1,8 @@
-# Project Name
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Professional README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-A detailed description of what the app does, how to use and install it, how to report issues and how to make contributions.
+A professional README.md file generator for your projects that includes what the app does, how to use and install it, how to report issues and how to make contributions. This is done from a command-line application using inquirer and automatically generates the README file
 
 ## Table of Contents
 - [Installation](#Installation)
@@ -13,20 +13,26 @@ A detailed description of what the app does, how to use and install it, how to r
 - [Questions](#Questions)
 
 ## Installation
-List any special installation instuctions here
+You must install inquirer to use this app
       
 ## Usage
-What the app is used for. Include any videos or screenshots on how to use the app here
+Automatically generating a professional README.md file for any application
+Video Example
+[![Watch](https://i.imgur.com/vKb2F1B.png)](https://watch.screencastify.com/v/AQl2Y2JUHgdzW9G77lzm)
+
+Screenshots
+![Alt text](/assets/images/final.png?raw=true "Terminal View")
+![Alt text](/assets/images/readme.png?raw=true "Final View")
       
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
-Apache License 2.0 - Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+MIT License - Click [here](https://opensource.org/licenses/MIT) for more information.
       
 ## Contributing 
-If there is anything people need to know on how to contribute to your app, also can list any current contributors.
+Not applicable
 
 ## Tests
-Any specific instructions on how to test the project. Include any necessary videos and screenshots here
+Not applicable 
 
 ## Questions
 GitHub Profile: [EsotericZ](https://www.github.com/EsotericZ)  
